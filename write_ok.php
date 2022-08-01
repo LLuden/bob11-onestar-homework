@@ -9,7 +9,7 @@
     $content = $_POST['content'];
     $writer = $_SESSION['user_id'];
     $name = $_SESSION['user_name'];
-    $conn = mysqli_connect('localhost', 'root', '1672943850', 'WebPage');
+    $conn = mysqli_connect('us-cdbr-east-06.cleardb.net', 'b970e70fd75771', '96a47725', 'heroku_ac62ccc8b051e59');
 
     $sql = "INSERT INTO board(title, writer, name, written, content) VALUES ('$title', '$writer', '$name', now(), '$content');";
 
