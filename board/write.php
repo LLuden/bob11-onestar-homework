@@ -2,7 +2,7 @@
     session_start();
     if(!isset($_SESSION['user_id']) || !isset($_SESSION['user_name'])) {
         echo "<script>alert('비회원입니다!');";
-        echo "window.location.replace('index.php');</script>";
+        echo "window.location.replace('../index.php');</script>";
     }
 ?>
 <!DOCTYPE html>

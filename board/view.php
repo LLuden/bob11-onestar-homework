@@ -9,7 +9,7 @@
     while($row = mysqli_fetch_array($res)){
 ?>
 <head>
-    <link rel="stylesheet" href="./css/view.css">
+    <link rel="stylesheet" href="../css/view.css">
 </head>
 <body>
     <div class="frame">

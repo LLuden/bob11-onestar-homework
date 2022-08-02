@@ -7,7 +7,7 @@
 <body>
     <div class=top><h2>게시판</h2></div>
     <button class=no onclick="window.location.href='write.php'">글쓰기</button>
-    <a href="index.php">메인으로 돌아가기</a>
+    <a href="../index.php">메인으로 돌아가기</a>
     <table class=middle>
         <thead>
             <tr align=center>

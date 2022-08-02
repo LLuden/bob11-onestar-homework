@@ -9,7 +9,7 @@
         $_SESSION['user_id'] = $res['login_id'];
         $_SESSION['user_name'] = $res['name'];
         echo "<script>alert('로그인에 성공했습니다!');";
-        echo "window.location.replace('index.php');</script>";
+        echo "window.location.replace('../index.php');</script>";
         exit;
     }
     else{
